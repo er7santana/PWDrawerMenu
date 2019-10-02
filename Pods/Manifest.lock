@@ -1,0 +1,16 @@
+PODS:
+  - DrawerMenu (1.0.1)
+
+DEPENDENCIES:
+  - DrawerMenu
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DrawerMenu
+
+SPEC CHECKSUMS:
+  DrawerMenu: f6ca91901e2b21086e3c19bcca278d3d3127e85f
+
+PODFILE CHECKSUM: b43931212575a4326cc5e0a91325192a8b3fdb27
+
+COCOAPODS: 1.7.5

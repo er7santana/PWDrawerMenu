@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  PWDrawerMenu
 //
 //  Created by Eliezer Rodrigo on 01/10/19.
@@ -9,19 +9,17 @@
 import UIKit
 import DrawerMenu
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "menu"),
                                                            style: .plain,
                                                             target: self,
                                                             action: #selector(leftOpen))
         navigationItem.leftBarButtonItem?.tintColor = .white
-        drawer()?.style = Slide()
     }
-
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -33,11 +31,9 @@ class ViewController: UIViewController {
         drawer()?.panGestureType = .none
     }
     
-    
     // MARK: Selector
     @objc func leftOpen() {
-        drawer()!.open(to: .left)
+        drawer()?.open(to: .left)
     }
     
 }
-

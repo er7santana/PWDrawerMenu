@@ -1,0 +1,6 @@
+framework module Pods_PWDrawerMenu {
+  umbrella header "Pods-PWDrawerMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
